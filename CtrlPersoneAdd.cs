@@ -64,7 +64,11 @@ namespace DVLD
                 people.ImagePath = pbProfileImage.ImageLocation;
                 if (people.save())
                 {
-                    MessageBox.Show("");
+                    MessageBox.Show("The Pepole saved Seccessfully");
+                }
+                else
+                {
+                    MessageBox.Show("the saved is Faild");
                 }
 
 
