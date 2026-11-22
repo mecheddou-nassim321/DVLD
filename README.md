@@ -25,3 +25,11 @@ The **Manage People** module is part of the DVLD (Driving & Vehicle License Depa
 This module was developed to practice database operations, CRUD functionality, and the implementation of a layered architecture in a desktop application.
 
 It helped strengthen my understanding of separating data access, business logic, and presentation layers to build maintainable and well-organized applications.
+
+
+### Manage People – LinkedIn
+
+Check out my progress and project update on LinkedIn:
+
+[🚀 View Manage People Task Completion](https://www.linkedin.com/posts/mecheddou-nassim-188a472a8_dvld-csharp-dotnet-ugcPost-7530021055990685697-oXAe/)
+
