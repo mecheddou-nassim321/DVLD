@@ -61,52 +61,62 @@ namespace DVLD.Properties {
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap Add_Person_40 {
+        internal static byte[] account_settings64 {
             get {
-                object obj = ResourceManager.GetObject("Add Person 40", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("account_settings64", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap Logo_Final {
+        internal static byte[] Add_Person__40 {
             get {
-                object obj = ResourceManager.GetObject("Logo Final", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Add_Person _40", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap People_400 {
+        internal static byte[] Add_Person_40 {
             get {
-                object obj = ResourceManager.GetObject("People 400", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Add_Person 40", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap People_4001 {
+        internal static byte[] Female_512 {
             get {
-                object obj = ResourceManager.GetObject("People 4001", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("Female_512", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap People_64 {
+        internal static byte[] IconLogo {
             get {
-                object obj = ResourceManager.GetObject("People 64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("IconLogo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] Male_512 {
+            get {
+                object obj = ResourceManager.GetObject("Male_512", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }
