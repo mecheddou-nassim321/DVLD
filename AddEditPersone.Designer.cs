@@ -38,6 +38,7 @@
             this.ctrlPersoneAdd1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ctrlPersoneAdd1.Location = new System.Drawing.Point(0, 0);
             this.ctrlPersoneAdd1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ctrlPersoneAdd1.MinimumSize = new System.Drawing.Size(600, 400);
             this.ctrlPersoneAdd1.Name = "ctrlPersoneAdd1";
             this.ctrlPersoneAdd1.Size = new System.Drawing.Size(960, 531);
             this.ctrlPersoneAdd1.TabIndex = 0;
@@ -54,12 +55,13 @@
             this.Name = "AddEditPersone";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add / Edit Person Info";
+            this.Load += new System.EventHandler(this.AddEditPersone_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private CtrlPersoneAdd ctrlPersoneAdd1;
+        public CtrlPersoneAdd ctrlPersoneAdd1;
     }
 }

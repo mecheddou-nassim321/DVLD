@@ -1,4 +1,7 @@
-﻿namespace DVLD
+﻿using System.Drawing;
+using System.IO;
+
+namespace DVLD
 {
     partial class Form1
     {
@@ -90,7 +93,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
-            this.pictureBox1.Image = global::DVLD.Properties.Resources.Logo_Final;
+            this.pictureBox1.Image = Image.FromStream(new MemoryStream( global::DVLD.Properties.Resources.IconLogo));
             this.pictureBox1.Location = new System.Drawing.Point(36, 64);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(735, 380);
